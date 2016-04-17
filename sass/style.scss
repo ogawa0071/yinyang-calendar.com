@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+$black: #000000;
+$white: #FFFFFF;
+$purple: #E9E9F3;
+$gold: #CEA57E;
+$silver: #999999;
+
+$font: Montserrat, "游ゴシック", YuGothic, sans-serif;
+
+html {
+  background-color: $purple;
+  font-family: $font;
+}
+
+body {
+  background-color: $purple;
+  font-family: $font;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main {
+  padding: 0;
+}
+
+.moon {
+  position: relative;
+  height: 480px;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+}
+
+.text {
+  padding: 0 15px;
+}
+
+.banner {
+  ul {
+    div {
+      margin-bottom: 30px;
+
+      a {
+        color: $gold;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 15px;
+    &.center-block {
+      display: block;
+    }
+
+    small {
+      font-size: 10px;
+      margin-right: 5px;
+    }
+  }
+
+  .btn {
+    // text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    border-radius: 0;
+  }
+
+  .btn-default {
+    border: 1px solid $silver;
+    color: $silver;
+    background-color: transparent;
+    &:hover, &:focus {
+      border: 1px solid $silver;
+      outline: none;
+      color: $white;
+      background-color: $silver;
+    }
+  }
+}
+
+.center-block {
+  .btn-default {
+    border: 1px solid $white;
+    color: $gold;
+    background-color: $white;
+    &:hover, &:focus {
+      border: 1px solid $gold;
+      outline: none;
+      color: $white;
+      background-color: $gold;
+    }
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: $silver;
+}
+
+.pricing {
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .text {
+    img {
+      position: absolute;
+      height: 260px;
+      bottom: 0;
+      left: 80px;
+    }
+  }
+}
