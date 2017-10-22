@@ -2,19 +2,19 @@
 
 $black: #000000;
 $white: #FFFFFF;
-$purple: #E9E9F3;
+$main: #d3e5f5;
 $gold: #CEA57E;
 $silver: #999999;
 
 $font: Montserrat, "游ゴシック", YuGothic, sans-serif;
 
 html {
-  background-color: $purple;
+  background-color: $main;
   font-family: $font;
 }
 
 body {
-  background-color: $purple;
+  background-color: $main;
   font-family: $font;
 }
 
