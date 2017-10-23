@@ -2,29 +2,28 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yin&Yang Calendar</title>
   <meta name="description" content="今日が和暦で何月何日なのかが簡単にわかるカレンダー「Yin&Yang Calendar」">
   <link rel="canonical" href="http://yinyang-calendar.com/">
-  <link rel="shortcut icon" href="./img/icon.png">
+  <link rel="icon" href="/images/icon.png">
 
   <!-- OGP -->
   <meta property="og:url" content="http://yinyang-calendar.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Yin&Yang Calendar">
-  <meta property="og:image" content="http://yinyang-calendar.com/img/og.png">
+  <meta property="og:image" content="http://yinyang-calendar.com/images/og.png">
   <meta property="og:description" content="今日が和暦で何月何日なのかが簡単にわかるカレンダー「Yin&Yang Calendar」">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@tukiyomichan">
   <meta name="twitter:title" content="Yin&Yang Calendar">
   <meta name="twitter:description" content="今日が和暦で何月何日なのかが簡単にわかるカレンダー「Yin&Yang Calendar」">
-  <meta name="twitter:image" content="http://yinyang-calendar.com/img/og.png">
+  <meta name="twitter:image" content="http://yinyang-calendar.com/images/og.png">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/styles/main.css">
 
   <!-- Google Analytics -->
   <script>
@@ -36,11 +35,6 @@
   ga('create', 'UA-55732049-2', 'auto');
   ga('send', 'pageview');
   </script>
-
-  <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 </head>
 <body>
   <main>
@@ -48,16 +42,19 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2 main">
           <div class="moon">
-            <img src="./img/moon.png" srcset="./img/moon.png 1x, ./img/moon@2x.png 2x" alt="" />
+            <img src="/images/moon.png" srcset="/images/moon.png 1x, /images/moon@2x.png 2x" alt="" />
+          </div>
+          <div class="title">
+            <img src="/images/title.png" srcset="/images/title.png 1x, /images/title@2x.png 2x" alt="Yin&Yang Calendar 2018" />
           </div>
           <div class="text">
-            <img src="./img/text.png" srcset="./img/text.png 1x, ./img/text@2x.png 2x" alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。" />
+            <img src="/images/text.png" srcset="/images/text.png 1x, /images/text@2x.png 2x" alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。" />
           </div>
         </div>
         <div class="col-md-8 col-md-offset-2 banner">
           <ul class="list-inline">
             <li class="center-block">
-              <a href="http://amzn.to/2dYGGj2" target="_blank" class="btn btn-default btn-lg">
+              <a href="https://www.amazon.co.jp/o/ASIN/B076DQVTB8/chiakira-22/" target="_blank" class="btn btn-default btn-lg">
                 <i class="fa fa-amazon fa-fw"></i>
                 <span class="network-name">Amazon.co.jpで購入する</span>
               </a>
@@ -66,7 +63,7 @@
               <a href="./pricing.html">10部以上ご購入の方へ</a>
             </div>
             <li>
-              <a href="http://ameblo.jp/tukiyomichan/" target="_blank" class="btn btn-default btn-lg">
+              <a href="https://ameblo.jp/tukiyomichan/" target="_blank" class="btn btn-default btn-lg">
                 <i class="fa fa-pencil-square-o fa-fw"></i>
                 <span class="network-name">Blog</span>
               </a>
@@ -104,5 +101,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="/scripts/main.min.js"></script>
 </body>
 </html>
