@@ -10,7 +10,7 @@ $font: Montserrat, "游ゴシック", YuGothic, sans-serif;
 
 html {
   background: #EE986D;
-  background: linear-gradient(0deg, rgba(232, 148, 180, 0.7) 5.1%, rgba(234, 150, 153, 0.7) 15.29%, rgba(236, 151, 129, 0.7) 26.93%, rgba(238, 152, 114, 0.7) 37.71%, rgba(238, 152, 109, 0.7) 46.69%, rgba(253, 242, 124, 0.7) 100%);
+  background: linear-gradient(0deg, rgba(253, 242, 124, 1) 0%, rgba(244, 176, 161, 1) 0%, rgba(242, 177, 162, 1) 2.02%, rgba(184, 203, 192, 1) 56.55%, rgba(162, 213, 204, 1) 82.77%);
 }
 
 body {
@@ -64,7 +64,7 @@ img {
       top: 45px;
       left: 0;
       right: 0;
-      transform: translate(50%);
+      transform: translate(60%);
     }
   }
 }
@@ -77,10 +77,10 @@ img {
       position: absolute;
       margin: auto;
       height: 200px;
-      bottom: 20px;
+      top: 45px;
       left: 0;
       right: 0;
-      transform: translate(-50%);
+      transform: translate(-60%);
     }
   }
 }
@@ -142,8 +142,8 @@ img {
 }
 
 .footer {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   color: $silver;
 }
 
