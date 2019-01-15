@@ -20,7 +20,6 @@ export default {
   },
   methods: {
     fixHeight() {
-      console.log('ok')
       const bodyOffsetHeight = document.body.offsetHeight
       const windowInnerHeight = window.innerHeight
 
