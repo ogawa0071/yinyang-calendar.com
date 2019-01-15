@@ -1,5 +1,5 @@
 <template>
-  <div :style="styleObject">
+  <fix-height>
     <main>
       <div class="container text-center">
         <div class="row">
@@ -77,31 +77,17 @@
         </div>
       </div>
     </main>
-  </div>
+  </fix-height>
 </template>
 
 <script>
 import Footer from '~/components/Footer.vue'
-import fixHeight from '~/assets/fixHeight'
+import FixHeight from '~/components/FixHeight.vue'
 
 export default {
   components: {
-    Footer
-  },
-  data() {
-    return {
-      styleObject: {}
-    }
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.fixHeight(this))
-  },
-  mounted() {
-    this.fixHeight(this)
-    window.addEventListener('resize', this.fixHeight(this))
-  },
-  methods: {
-    fixHeight
+    Footer,
+    FixHeight
   }
 }
 </script>
