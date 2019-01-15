@@ -7,13 +7,48 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Yin&Yang Calendar',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { property: 'og:url', content: 'https://yinyang-calendar.com/' },
+      { property: 'og:title', content: 'Yin&Yang Calendar' },
+      {
+        property: 'og:description',
+        content:
+          '今日が和暦で何月何日なのかが簡単にわかるカレンダー「Yin&Yang Calendar」'
+      },
+      {
+        property: 'og:image',
+        content: 'http://yinyang-calendar.com/images/og.png'
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@tukiyomichan' },
+      { name: 'twitter:title', content: 'Yin&Yang Calendar' },
+      {
+        name: 'twitter:description',
+        content:
+          '今日が和暦で何月何日なのかが簡単にわかるカレンダー「Yin&Yang Calendar」'
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://yinyang-calendar.com/images/og.png'
+      }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', href: '/favicon.png' },
+      { rel: 'canonical', href: 'https://yinyang-calendar.com/' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Montserrat'
+      }
+    ]
   },
 
   /*
@@ -29,7 +64,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', ssr: false }],
 
   /*
   ** Nuxt.js modules
@@ -54,5 +89,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  generate: {
+    dir: 'docs'
   }
 }

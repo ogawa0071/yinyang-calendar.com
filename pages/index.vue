@@ -1,65 +1,111 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        yinyang-calendar.com
-      </h1>
-      <h2 class="subtitle">
-        My first-class Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <div :style="styleObject">
+    <main>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 main">
+            <div class="moon">
+              <img 
+                src="~assets/moon.png" 
+                srcset="~assets/moon.png 1x, ~assets/moon@2x.png 2x" 
+                alt="" >
+            </div>
+            <div class="title">
+              <img 
+                src="~assets/title.png" 
+                srcset="~assets/title.png 1x, ~assets/title@2x.png 2x" 
+                alt="Yin&Yang Calendar 2018" >
+            </div>
+            <div class="text">
+              <img 
+                src="~assets/text.png" 
+                srcset="~assets/text.png 1x, ~assets/text@2x.png 2x" 
+                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。" >
+            </div>
+          </div>
+          <div class="col-md-8 col-md-offset-2 banner">
+            <ul class="list-inline">
+              <li class="center-block">
+                <a 
+                  href="https://www.amazon.co.jp/o/ASIN/B07J3GTXWK/chiakira-22/" 
+                  target="_blank" 
+                  class="btn btn-default btn-lg">
+                  <i class="fa fa-amazon fa-fw"/>
+                  <span class="network-name">Amazon.co.jpで購入する</span>
+                </a>
+              </li>
+              <div class="">
+                <nuxt-link to="/pricing/">10部以上ご購入の方へ</nuxt-link>
+              </div>
+              <li>
+                <a 
+                  href="https://ameblo.jp/tukiyomichan/" 
+                  target="_blank" 
+                  class="btn btn-default btn-lg">
+                  <i class="fa fa-pencil-square-o fa-fw"/>
+                  <span class="network-name">Blog</span>
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.facebook.com/tukiyomichan" 
+                  target="_blank" 
+                  class="btn btn-default btn-lg">
+                  <i class="fa fa-facebook-official fa-fw"/>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://twitter.com/tukiyomichan" 
+                  target="_blank" 
+                  class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"/>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="http://tukiyomi.in/" 
+                  target="_blank" 
+                  class="btn btn-default btn-lg">
+                  <span class="network-name"><small>Salon</small>つきよみ白金台</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </main>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Footer from '~/components/Footer.vue'
+import fixHeight from '~/assets/fixHeight'
 
 export default {
   components: {
-    Logo
+    Footer
+  },
+  data() {
+    return {
+      styleObject: {}
+    }
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.fixHeight(this))
+  },
+  mounted() {
+    this.fixHeight(this)
+    window.addEventListener('resize', this.fixHeight(this))
+  },
+  methods: {
+    fixHeight
   }
 }
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style lang="scss">
+@import '~assets/main.scss';
 </style>
