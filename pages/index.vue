@@ -77,16 +77,17 @@
         </div>
       </div>
     </main>
+    <global-footer />
   </fix-height>
 </template>
 
 <script>
-import Footer from '~/components/Footer.vue'
+import GlobalFooter from '~/components/Footer.vue'
 import FixHeight from '~/components/FixHeight.vue'
 
 export default {
   components: {
-    Footer,
+    GlobalFooter,
     FixHeight
   }
 }
