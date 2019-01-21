@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         property: 'og:image',
-        content: 'http://yinyang-calendar.com/images/og.png'
+        content: 'http://yinyang-calendar.com/og.png'
       },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@tukiyomichan' },
@@ -33,7 +33,7 @@ module.exports = {
       },
       {
         name: 'twitter:image',
-        content: 'https://yinyang-calendar.com/images/og.png'
+        content: 'https://yinyang-calendar.com/og.png'
       }
     ],
     link: [
