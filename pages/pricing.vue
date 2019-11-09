@@ -41,7 +41,7 @@
                   <td>30</td>
                   <td>¥15,750</td>
                   <td>¥1,570</td>
-                  <td>¥15,750</td>
+                  <td>¥17,325</td>
                   <td>
                     <a
                       href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
