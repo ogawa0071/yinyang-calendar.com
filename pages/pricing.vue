@@ -79,7 +79,9 @@
           <div class="col-md-8 col-md-offset-2 banner">
             <ul class="list-inline">
               <li class="center-block">
-                <a href="mailto:info@yinyang-calendar.com" class="btn btn-default btn-lg">
+                <a 
+                  href="mailto:info@yinyang-calendar.com" 
+                  class="btn btn-default btn-lg">
                   <i class="fa fa-envelope fa-fw" />
                   <span class="network-name">info@yinyang-calendar.com</span>
                 </a>
