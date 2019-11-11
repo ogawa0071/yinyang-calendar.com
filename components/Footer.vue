@@ -22,6 +22,6 @@
 .footer {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: $silver;
+  color: $white;
 }
 </style>

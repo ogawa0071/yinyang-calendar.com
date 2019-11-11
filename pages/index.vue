@@ -6,23 +6,18 @@
           <div class="col-md-8 col-md-offset-2 main">
             <div class="moon">
               <img 
-                src="~assets/moon.png" 
-                srcset="~assets/moon.png 1x, ~assets/moon@2x.png 2x" 
+                src="~assets/moon@2x.png" 
                 alt >
             </div>
             <div class="title">
-              <img
-                src="~assets/title.png"
-                srcset="~assets/title.png 1x, ~assets/title@2x.png 2x"
-                alt="Yin&Yang Calendar 2018"
-              >
+              <img 
+                src="~assets/title@2x.png" 
+                alt="Yin&Yang Calendar 2018" >
             </div>
             <div class="text">
-              <img
-                src="~assets/text.png"
-                srcset="~assets/text.png 1x, ~assets/text@2x.png 2x"
-                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。"
-              >
+              <img 
+                src="~assets/text@2x.png" 
+                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。" >
             </div>
           </div>
           <div class="col-md-8 col-md-offset-2 banner">
