@@ -14,13 +14,7 @@
   </footer>
 </template>
 
-<style lang="scss">
-@import '~assets/main.scss';
-</style>
-
 <style lang="scss" scoped>
-@import '~assets/main.scss';
-
 .footer {
   margin-top: 25px;
   margin-bottom: 25px;

@@ -55,21 +55,14 @@ export default {
     link: [
       { rel: 'icon', href: '/favicon.png' },
       { rel: 'canonical', href: url },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Montserrat&display=swap',
-      },
     ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: [
+    'bootstrap/dist/css/bootstrap.css',
+    '@fortawesome/fontawesome-free/css/all.css',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -81,10 +74,17 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/style-resources',
     [
       '@nuxtjs/google-analytics',
       {
         id: 'UA-55732049-2',
+      },
+    ],
+    [
+      '@nuxtjs/google-fonts',
+      {
+        Montserrat: true,
       },
     ],
   ],
@@ -97,5 +97,9 @@ export default {
 
   generate: {
     dir: 'docs',
+  },
+
+  styleResources: {
+    scss: ['~/assets/_variables.scss'],
   },
 }

@@ -5,5 +5,141 @@
 </template>
 
 <style lang="scss">
-@import 'bootstrap/dist/css/bootstrap.css';
+html {
+  background: linear-gradient(
+    0deg,
+    rgba(250, 215, 181, 1) 0%,
+    rgba(120, 116, 169, 1) 80%
+  );
+}
+
+body {
+  background: none;
+  font-family: $font;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.main {
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.moon {
+  position: relative;
+  height: 400px;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  @media (min-width: 768px) {
+    height: 480px;
+  }
+}
+
+.title {
+  padding: 0 15px;
+
+  img {
+    position: absolute;
+    width: 260px;
+    top: 45px;
+    left: 15px;
+  }
+
+  @media (min-width: 768px) {
+    img {
+      position: absolute;
+      margin: auto;
+      width: 280px;
+      top: 45px;
+      left: 0;
+      right: 0;
+      transform: translate(60%);
+    }
+  }
+}
+
+.text {
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    img {
+      position: absolute;
+      margin: auto;
+      height: 200px;
+      top: 45px;
+      left: 0;
+      right: 0;
+      transform: translate(-60%);
+    }
+  }
+}
+
+.banner {
+  ul {
+    div {
+      margin-bottom: 30px;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 15px;
+    &.center-block {
+      display: block;
+    }
+
+    small {
+      font-size: 10px;
+      margin-right: 5px;
+    }
+  }
+
+  .btn {
+    // text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+  }
+
+  .btn-default {
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+      border: 1px solid $gold;
+      outline: none;
+      color: $white;
+      background-color: $gold;
+    }
+  }
+}
+
+.center-block {
+  .btn-default {
+    border: 1px solid $white;
+    color: $gold;
+    background-color: $white;
+    &:hover,
+    &:focus {
+      border: 1px solid $gold;
+      outline: none;
+      color: $white;
+      background-color: $gold;
+    }
+  }
+}
 </style>

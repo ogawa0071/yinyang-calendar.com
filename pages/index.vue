@@ -25,11 +25,11 @@
                   target="_blank"
                   class="btn btn-default btn-lg"
                 >
-                  <i class="fa fa-amazon fa-fw" />
+                  <i class="fab fa-amazon fa-fw"></i>
                   <span class="network-name">Amazon.co.jpで購入する</span>
                 </a>
               </li>
-              <div class>
+              <div>
                 <nuxt-link to="/pricing/">10部以上ご購入の方へ</nuxt-link>
               </div>
               <li>
@@ -38,7 +38,7 @@
                   target="_blank"
                   class="btn btn-default btn-lg"
                 >
-                  <i class="fa fa-pencil-square-o fa-fw" />
+                  <i class="fas fa-edit fa-fw"></i>
                   <span class="network-name">Blog</span>
                 </a>
               </li>
@@ -48,7 +48,7 @@
                   target="_blank"
                   class="btn btn-default btn-lg"
                 >
-                  <i class="fa fa-facebook-official fa-fw" />
+                  <i class="fab fa-facebook-square fa-fw"></i>
                   <span class="network-name">Facebook</span>
                 </a>
               </li>
@@ -58,8 +58,18 @@
                   target="_blank"
                   class="btn btn-default btn-lg"
                 >
-                  <i class="fa fa-twitter fa-fw" />
+                  <i class="fab fa-twitter fa-fw"></i>
                   <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/tukiyomichan/"
+                  target="_blank"
+                  class="btn btn-default btn-lg"
+                >
+                  <i class="fab fa-instagram fa-fw"></i>
+                  <span class="network-name">Instagram</span>
                 </a>
               </li>
               <li>
@@ -93,7 +103,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-@import '~assets/main.scss';
-</style>

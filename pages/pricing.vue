@@ -86,7 +86,7 @@
                   href="mailto:info@yinyang-calendar.com"
                   class="btn btn-default btn-lg"
                 >
-                  <i class="fa fa-envelope fa-fw" />
+                  <i class="fas fa-envelope fa-fw"></i>
                   <span class="network-name">info@yinyang-calendar.com</span>
                 </a>
               </li>
@@ -111,13 +111,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@import '~assets/main.scss';
-</style>
-
 <style lang="scss" scoped>
-@import '~assets/main.scss';
-
 .pricing {
   h1 {
     margin-bottom: 20px;
