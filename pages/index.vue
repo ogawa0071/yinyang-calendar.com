@@ -5,19 +5,16 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 main">
             <div class="moon">
-              <img 
-                src="~assets/moon@2x.png" 
-                alt >
+              <img src="~assets/moon@2x.png" alt />
             </div>
             <div class="title">
-              <img 
-                src="~assets/title@2x.png" 
-                alt="Yin&Yang Calendar 2018" >
+              <img src="~assets/title@2x.png" alt="Yin&Yang Calendar 2018" />
             </div>
             <div class="text">
-              <img 
-                src="~assets/text@2x.png" 
-                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。" >
+              <img
+                src="~assets/text@2x.png"
+                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。"
+              />
             </div>
           </div>
           <div class="col-md-8 col-md-offset-2 banner">
@@ -66,10 +63,11 @@
                 </a>
               </li>
               <li>
-                <a 
-                  href="http://tukiyomi.in/" 
-                  target="_blank" 
-                  class="btn btn-default btn-lg">
+                <a
+                  href="http://tukiyomi.in/"
+                  target="_blank"
+                  class="btn btn-default btn-lg"
+                >
                   <span class="network-name">
                     <small>Salon</small>つきよみ白金台
                   </span>
@@ -91,8 +89,8 @@ import FixHeight from '~/components/FixHeight.vue'
 export default {
   components: {
     GlobalFooter,
-    FixHeight
-  }
+    FixHeight,
+  },
 }
 </script>
 

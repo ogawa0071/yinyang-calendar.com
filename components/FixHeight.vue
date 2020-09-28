@@ -1,6 +1,6 @@
 <template>
   <div :style="styleObject">
-    <slot/>
+    <slot />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      styleObject: {}
+      styleObject: {},
     }
   },
   beforeDestroy() {
@@ -25,12 +25,12 @@ export default {
 
       if (bodyOffsetHeight < windowInnerHeight) {
         this.styleObject = {
-          height: `${windowInnerHeight}px`
+          height: `${windowInnerHeight}px`,
         }
       } else {
         this.styleObject = {}
       }
-    }
-  }
+    },
+  },
 }
 </script>

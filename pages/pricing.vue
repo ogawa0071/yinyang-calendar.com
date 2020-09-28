@@ -46,7 +46,8 @@
                     <a
                       href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
                 <tr>
@@ -58,7 +59,8 @@
                     <a
                       href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
                 <tr>
@@ -70,7 +72,8 @@
                     <a
                       href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
               </tbody>
@@ -79,9 +82,10 @@
           <div class="col-md-8 col-md-offset-2 banner">
             <ul class="list-inline">
               <li class="center-block">
-                <a 
-                  href="mailto:info@yinyang-calendar.com" 
-                  class="btn btn-default btn-lg">
+                <a
+                  href="mailto:info@yinyang-calendar.com"
+                  class="btn btn-default btn-lg"
+                >
                   <i class="fa fa-envelope fa-fw" />
                   <span class="network-name">info@yinyang-calendar.com</span>
                 </a>
@@ -102,8 +106,8 @@ import FixHeight from '~/components/FixHeight.vue'
 export default {
   components: {
     GlobalFooter,
-    FixHeight
-  }
+    FixHeight,
+  },
 }
 </script>
 
