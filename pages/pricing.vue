@@ -44,7 +44,7 @@
                   <td>¥17,325</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
                       >こちら</a
                     >
@@ -57,7 +57,7 @@
                   <td>¥26,950</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
                       >こちら</a
                     >
@@ -70,7 +70,7 @@
                   <td>¥46,200</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
                       >こちら</a
                     >

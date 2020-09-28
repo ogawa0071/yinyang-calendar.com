@@ -64,7 +64,7 @@
               </li>
               <li>
                 <a
-                  href="http://tukiyomi.in/"
+                  href="https://tukiyomi.in/"
                   target="_blank"
                   class="btn btn-default btn-lg"
                 >
