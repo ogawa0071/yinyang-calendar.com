@@ -44,9 +44,10 @@
                   <td>¥17,325</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
                 <tr>
@@ -56,9 +57,10 @@
                   <td>¥26,950</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
                 <tr>
@@ -68,9 +70,10 @@
                   <td>¥46,200</td>
                   <td>
                     <a
-                      href="http://www.kuronekoyamato.co.jp/estimate/kanto.html"
+                      href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
                       target="_blank"
-                    >こちら</a>
+                      >こちら</a
+                    >
                   </td>
                 </tr>
               </tbody>
@@ -79,10 +82,11 @@
           <div class="col-md-8 col-md-offset-2 banner">
             <ul class="list-inline">
               <li class="center-block">
-                <a 
-                  href="mailto:info@yinyang-calendar.com" 
-                  class="btn btn-default btn-lg">
-                  <i class="fa fa-envelope fa-fw" />
+                <a
+                  href="mailto:info@yinyang-calendar.com"
+                  class="btn btn-default btn-lg"
+                >
+                  <i class="fas fa-envelope fa-fw"></i>
                   <span class="network-name">info@yinyang-calendar.com</span>
                 </a>
               </li>
@@ -102,18 +106,12 @@ import FixHeight from '~/components/FixHeight.vue'
 export default {
   components: {
     GlobalFooter,
-    FixHeight
-  }
+    FixHeight,
+  },
 }
 </script>
 
-<style lang="scss">
-@import '~assets/main.scss';
-</style>
-
 <style lang="scss" scoped>
-@import '~assets/main.scss';
-
 .pricing {
   h1 {
     margin-bottom: 20px;
