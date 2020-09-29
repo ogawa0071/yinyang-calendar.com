@@ -6,11 +6,7 @@
 
 <style lang="scss">
 html {
-  background: linear-gradient(
-    0deg,
-    rgba(250, 215, 181, 1) 0%,
-    rgba(120, 116, 169, 1) 80%
-  );
+  background: linear-gradient(0deg, #fbd58b 0%, #008cce 90%);
 }
 
 body {
@@ -24,63 +20,33 @@ img {
 }
 
 .main {
-  padding: 0;
-  margin-bottom: 80px;
-}
-
-.moon {
-  position: relative;
-  height: 400px;
-
-  img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-  }
+  margin-bottom: 50px;
+  background-image: url('~assets/moon@2x.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   @media (min-width: 768px) {
-    height: 480px;
+    margin-bottom: 80px;
   }
 }
 
 .title {
-  padding: 0 15px;
-
-  img {
-    position: absolute;
-    width: 260px;
-    top: 45px;
-    left: 15px;
-  }
+  padding: 50px 0;
 
   @media (min-width: 768px) {
-    img {
-      position: absolute;
-      margin: auto;
-      width: 280px;
-      top: 45px;
-      left: 0;
-      right: 0;
-      transform: translate(60%);
-    }
+    padding: 80px 0;
   }
 }
 
 .text {
-  padding: 0 15px;
+  padding: 20px 0;
 
   @media (min-width: 768px) {
+    padding: 50px 0;
+
     img {
-      position: absolute;
-      margin: auto;
-      height: 200px;
-      top: 45px;
-      left: 0;
-      right: 0;
-      transform: translate(-60%);
+      width: 420px;
     }
   }
 }
@@ -129,7 +95,7 @@ img {
 }
 
 .center-block {
-  .btn-default {
+  .color {
     border: 1px solid $white;
     color: $gold;
     background-color: $white;
