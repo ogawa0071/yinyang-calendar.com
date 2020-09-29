@@ -20,15 +20,8 @@ export default {
   },
   methods: {
     fixHeight() {
-      const bodyOffsetHeight = document.body.offsetHeight
-      const windowInnerHeight = window.innerHeight
-
-      if (bodyOffsetHeight < windowInnerHeight) {
-        this.styleObject = {
-          height: `${windowInnerHeight}px`,
-        }
-      } else {
-        this.styleObject = {}
+      this.styleObject = {
+        height: `${window.innerHeight}px`,
       }
     },
   },
