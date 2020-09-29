@@ -1,10 +1,10 @@
 <template>
-  <fix-height>
+  <div>
     <main>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 pricing">
-            <h1>Pricing</h1>
+            <h1 class="title">Pricing</h1>
             <table class="table table-hover text-left">
               <thead>
                 <tr>
@@ -95,26 +95,12 @@
         </div>
       </div>
     </main>
-    <global-footer />
-  </fix-height>
+    <Footer />
+  </div>
 </template>
 
-<script>
-import GlobalFooter from '~/components/Footer.vue'
-import FixHeight from '~/components/FixHeight.vue'
-
-export default {
-  components: {
-    GlobalFooter,
-    FixHeight,
-  },
-}
-</script>
-
 <style lang="scss" scoped>
-.pricing {
-  h1 {
-    margin-bottom: 20px;
-  }
+.title {
+  margin-bottom: 20px;
 }
 </style>

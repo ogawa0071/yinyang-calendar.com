@@ -1,19 +1,16 @@
 <template>
-  <fix-height>
+  <div>
     <main>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 main">
-            <!-- <div class="moon">
-              <img src="~assets/moon.svg" alt />
-            </div> -->
             <div class="title">
-              <img src="~assets/title.svg" alt="Yin&Yang Calendar 2018" />
+              <img src="~assets/title.svg" alt="2021 Yin&Yang Calendar" />
             </div>
             <div class="text">
               <img
                 src="~assets/text.svg"
-                alt="和暦は月と太陽のリズムを組み合わせた、「太陽太陰暦」。"
+                alt="イン・ヤン カレンダー 和暦・月暦"
               />
             </div>
           </div>
@@ -23,7 +20,7 @@
                 <a
                   href="https://www.amazon.co.jp/o/ASIN/B08JH7XT5H/chiakira-22/"
                   target="_blank"
-                  class="btn btn-default btn-lg color"
+                  class="btn btn-default btn-lg color-gold"
                 >
                   <i class="fab fa-amazon fa-fw"></i>
                   <span class="network-name">Amazonで詳しくみる</span>
@@ -88,18 +85,100 @@
         </div>
       </div>
     </main>
-    <global-footer />
-  </fix-height>
+    <Footer />
+  </div>
 </template>
 
-<script>
-import GlobalFooter from '~/components/Footer.vue'
-import FixHeight from '~/components/FixHeight.vue'
+<style lang="scss" scoped>
+.main {
+  margin-bottom: 50px;
+  background-image: url('~assets/moon@2x.png');
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 
-export default {
-  components: {
-    GlobalFooter,
-    FixHeight,
-  },
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
+  }
 }
-</script>
+
+.title {
+  padding: 50px 0;
+
+  @media (min-width: 768px) {
+    padding: 80px 0;
+  }
+}
+
+.text {
+  padding: 20px 0;
+
+  @media (min-width: 768px) {
+    padding: 50px 0;
+
+    img {
+      width: 420px;
+    }
+  }
+}
+
+.center-block {
+  .color-gold {
+    border: 1px solid $white;
+    color: $gold;
+    background-color: $white;
+    &:hover,
+    &:focus {
+      border: 1px solid $gold;
+      outline: none;
+      color: $white;
+      background-color: $gold;
+    }
+  }
+}
+</style>
+
+<style lang="scss">
+.banner {
+  ul {
+    div {
+      margin-bottom: 30px;
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  li {
+    margin-bottom: 15px;
+    &.center-block {
+      display: block;
+    }
+
+    small {
+      font-size: 10px;
+      margin-right: 5px;
+    }
+  }
+
+  .btn {
+    // text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0;
+  }
+
+  .btn-default {
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+    &:hover,
+    &:focus {
+      border: 1px solid $gold;
+      outline: none;
+      color: $white;
+      background-color: $gold;
+    }
+  }
+}
+</style>
