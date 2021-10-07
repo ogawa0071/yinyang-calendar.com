@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 main">
             <div class="title">
-              <img src="~assets/title.svg" alt="2021 Yin&Yang Calendar" />
+              <img src="~assets/title.svg" alt="2022 Yin&Yang Calendar" />
             </div>
             <div class="text">
               <img
@@ -18,7 +18,7 @@
             <ul class="list-inline">
               <li class="center-block">
                 <a
-                  href="https://www.amazon.co.jp/o/ASIN/B08JH7XT5H/chiakira-22/"
+                  href="https://www.amazon.co.jp/o/ASIN/B09HG2L55S/chiakira-22/"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
                 >
@@ -94,7 +94,7 @@
   margin-bottom: 50px;
   background-image: url('~assets/moon@2x.png');
   background-size: contain;
-  background-position: center center;
+  background-position: right center;
   background-repeat: no-repeat;
 
   @media (min-width: 768px) {
