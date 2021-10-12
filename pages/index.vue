@@ -97,8 +97,8 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  background-size: contain;
-  background-position: left top;
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat;
 }
 
