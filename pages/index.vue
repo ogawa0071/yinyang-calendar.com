@@ -1,6 +1,7 @@
 <template>
   <div>
     <main>
+      <div class="bg"></div>
       <div class="container text-center">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 main">
@@ -90,12 +91,24 @@
 </template>
 
 <style lang="scss" scoped>
+.bg {
+  background-image: url('~assets/bg@2x.png');
+  mix-blend-mode: screen;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: contain;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
 .main {
   margin-bottom: 50px;
   background-image: url('~assets/moon@2x.png');
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
+  mix-blend-mode: normal;
 
   @media (min-width: 768px) {
     margin-bottom: 80px;
