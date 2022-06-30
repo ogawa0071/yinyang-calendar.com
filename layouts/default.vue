@@ -8,7 +8,7 @@
 html,
 body {
   background: linear-gradient(0deg, #87beb8 0%, #eddc61 100%);
-  height: 100vh;
+  min-height: 100vh;
   font-family: $font;
 }
 
