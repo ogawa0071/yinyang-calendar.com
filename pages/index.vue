@@ -1,12 +1,16 @@
 <template>
   <div>
     <main>
-      <div class="bg"></div>
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2 main">
-            <div class="title">
-              <img src="~assets/title.svg" alt="2022 Yin&Yang Calendar" />
+          <div class="col-md-12 main">
+            <div class="bg"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 title">
+                  <img src="~assets/title.svg" alt="2023 Yin&Yang Calendar" />
+                </div>
+              </div>
             </div>
             <div class="text">
               <img
@@ -19,7 +23,7 @@
             <ul class="list-inline">
               <li class="center-block">
                 <a
-                  href="https://www.amazon.co.jp/o/ASIN/B09HG2L55S/chiakira-22/"
+                  href="https://www.amazon.co.jp/dp/B0BFHCQBFT?tag=chiakira-22"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
                 >
@@ -92,26 +96,29 @@
 
 <style lang="scss" scoped>
 .bg {
-  background-image: url('~assets/bg@2x.png');
-  mix-blend-mode: screen;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  @media (min-width: 992px) {
+    background-image: url('~assets/bg@2x.png');
+    mix-blend-mode: screen;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    background-size: contain;
+    background-position: 20% bottom;
+    background-repeat: no-repeat;
+    top: 55%;
+  }
 }
 
 .main {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   background-image: url('~assets/moon@2x.png');
   background-size: contain;
-  background-position: right center;
+  background-position: right bottom;
   background-repeat: no-repeat;
   mix-blend-mode: normal;
 
   @media (min-width: 768px) {
-    margin-bottom: 80px;
+    padding-bottom: 200px;
   }
 }
 
