@@ -18,30 +18,30 @@
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>¥700</td>
-                  <td>¥70</td>
-                  <td>¥770</td>
+                  <td>¥750</td>
+                  <td>¥75</td>
+                  <td>¥825</td>
                   <td>¥120</td>
                 </tr>
                 <tr>
                   <td>10</td>
-                  <td>¥6,300</td>
-                  <td>¥630</td>
-                  <td>¥6,930</td>
-                  <td>¥198</td>
+                  <td>¥6,750</td>
+                  <td>¥675</td>
+                  <td>¥7,425</td>
+                  <td>¥185</td>
                 </tr>
                 <tr>
                   <td>20</td>
-                  <td>¥11,200</td>
-                  <td>¥1,120</td>
-                  <td>¥12,320</td>
-                  <td>¥198</td>
+                  <td>¥12,000</td>
+                  <td>¥1,200</td>
+                  <td>¥13,200</td>
+                  <td>¥185</td>
                 </tr>
                 <tr>
                   <td>30</td>
-                  <td>¥15,750</td>
-                  <td>¥1,570</td>
-                  <td>¥17,325</td>
+                  <td>¥16,875</td>
+                  <td>¥1,688</td>
+                  <td>¥18,568</td>
                   <td>
                     <a
                       href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
@@ -52,9 +52,9 @@
                 </tr>
                 <tr>
                   <td>50</td>
-                  <td>¥24,500</td>
-                  <td>¥2,450</td>
-                  <td>¥26,950</td>
+                  <td>¥26,250</td>
+                  <td>¥2,625</td>
+                  <td>¥28,875</td>
                   <td>
                     <a
                       href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
@@ -65,9 +65,9 @@
                 </tr>
                 <tr>
                   <td>100</td>
-                  <td>¥42,000</td>
-                  <td>¥4,200</td>
-                  <td>¥46,200</td>
+                  <td>¥45,000</td>
+                  <td>¥4,500</td>
+                  <td>¥49,500</td>
                   <td>
                     <a
                       href="https://www.kuronekoyamato.co.jp/estimate/kanto.html"
