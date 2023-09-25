@@ -23,7 +23,7 @@
             <ul class="list-inline">
               <li class="center-block">
                 <a
-                  href="https://www.amazon.co.jp/dp/B0BFHCQBFT?tag=chiakira-22"
+                  href="https://www.amazon.co.jp/dp/B0CJLJMQ3G?tag=chiakira-22"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
                 >
