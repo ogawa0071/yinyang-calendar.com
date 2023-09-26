@@ -8,7 +8,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 title">
-                  <img src="~assets/title.svg" alt="2023 Yin&Yang Calendar" />
+                  <img src="~assets/title.svg" alt="2024 Yin&Yang Calendar" />
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@
                 </a>
               </li>
               <div>
-                <nuxt-link to="/pricing/">卸価格について</nuxt-link>
+                <nuxt-link to="/pricing/">卸価格はこちら</nuxt-link>
               </div>
               <li class="center-block">
                 <a
@@ -96,16 +96,18 @@
 
 <style lang="scss" scoped>
 .bg {
-  @media (min-width: 992px) {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
     background-image: url('~assets/bg@2x.png');
     mix-blend-mode: screen;
-    height: 40%;
+    height: 100%;
     width: 100%;
     position: absolute;
     background-size: contain;
-    background-position: 20% bottom;
+    background-position: 30% top;
     background-repeat: no-repeat;
-    top: 55%;
   }
 }
 
@@ -118,7 +120,9 @@
   mix-blend-mode: normal;
 
   @media (min-width: 768px) {
-    padding-bottom: 200px;
+    background-size: 20%;
+    background-position: 28% 38%;
+    padding-bottom: 50px;
   }
 }
 
