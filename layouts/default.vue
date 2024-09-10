@@ -7,7 +7,7 @@
 <style lang="scss">
 html,
 body {
-  background: linear-gradient(0deg, #85bfc9 0%, #eaa5ba 100%);
+  background: linear-gradient(0deg, #66c0ed 0%, #f6b878 100%);
   min-height: 100vh;
   font-family: $font;
 }
