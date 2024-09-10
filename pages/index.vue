@@ -8,7 +8,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 title">
-                  <img src="~assets/title.svg" alt="2024 Yin&Yang Calendar" />
+                  <img src="~assets/title.svg" alt="2025 Yin&Yang Calendar" />
                 </div>
               </div>
             </div>
@@ -23,7 +23,7 @@
             <ul class="list-inline">
               <li class="center-block">
                 <a
-                  href="https://www.amazon.co.jp/dp/B0CJLJMQ3G?tag=chiakira-22"
+                  href="https://www.amazon.co.jp/dp/B0DG5CHNWW?tag=chiakira-22"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
                 >
