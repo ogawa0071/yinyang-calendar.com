@@ -8,7 +8,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 title">
-                  <img src="~assets/title.svg" alt="2025 Yin&Yang Calendar" />
+                  <img src="~assets/title.svg" alt="2026 Yin&Yang Calendar" />
                 </div>
               </div>
             </div>
@@ -21,14 +21,22 @@
           </div>
           <div class="col-md-8 col-md-offset-2 banner">
             <ul class="list-inline">
-              <li class="center-block">
+              <li>
                 <a
-                  href="https://www.amazon.co.jp/dp/B0DG5CHNWW?tag=chiakira-22"
+                  href="https://www.amazon.co.jp/dp/B0FR9KY5JC?tag=chiakira-22"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
                 >
-                  <i class="fab fa-amazon fa-fw"></i>
                   <span class="network-name">Amazonで詳しくみる</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://jp.mercari.com/shops/product/gL282TgExXbKtYTRik55Sj"
+                  target="_blank"
+                  class="btn btn-default btn-lg color-gold"
+                >
+                  <span class="network-name">メルカリで詳しくみる</span>
                 </a>
               </li>
               <div>
@@ -146,7 +154,7 @@
   }
 }
 
-.center-block {
+li {
   .color-gold {
     border: 1px solid $white;
     color: $gold;
