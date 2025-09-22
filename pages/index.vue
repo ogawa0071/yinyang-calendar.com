@@ -26,6 +26,7 @@
                   href="https://www.amazon.co.jp/dp/B0FR9KY5JC?tag=chiakira-22"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
+                  style="width: 220px"
                 >
                   <span class="network-name">Amazonで詳しくみる</span>
                 </a>
@@ -35,6 +36,7 @@
                   href="https://jp.mercari.com/shops/product/gL282TgExXbKtYTRik55Sj"
                   target="_blank"
                   class="btn btn-default btn-lg color-gold"
+                  style="width: 220px"
                 >
                   <span class="network-name">メルカリで詳しくみる</span>
                 </a>
