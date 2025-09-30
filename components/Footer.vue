@@ -5,7 +5,8 @@
         <div class="col-md-8 col-md-offset-2 footer">
           <div class="copyright">
             <small
-              >Copyright &copy; Yin&Yang Calendar All rights reserved.</small
+              >Copyright &copy; 2025 Yin&Yang Calendar All rights
+              reserved.</small
             >
           </div>
         </div>
