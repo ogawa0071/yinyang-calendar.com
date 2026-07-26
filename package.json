@@ -1,37 +1,27 @@
 {
   "name": "yinyang-calendar.com",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore --ignore-path .eslintignore .",
-    "lintfix:js": "eslint --fix --ext .js,.vue --ignore-path .gitignore --ignore-path .eslintignore .",
-    "lint": "yarn lint:js",
-    "lintfix": "yarn lintfix:js"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "3",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.4"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^3.1.0",
-    "@nuxtjs/eslint-module": "^2.0.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/google-fonts": "^1.0.3",
-    "@nuxtjs/style-resources": "^1.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.8.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-nuxt": "^1.0.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1",
-    "sass": "^1.55.0",
-    "sass-loader": "10"
-  },
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "@eslint/eslintrc": "^3"
+  }
 }
